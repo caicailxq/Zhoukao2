@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bawei.zhoukao2.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/a1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="热歌榜"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="该榜单是根据百度音乐平台自动生成的等等。"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+    <com.liaoinstan.springview.widget.SpringView
+        android:id="@+id/spring"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+
+    </com.liaoinstan.springview.widget.SpringView>
+
+</LinearLayout>
